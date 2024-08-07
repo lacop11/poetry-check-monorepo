@@ -1,0 +1,4 @@
+- id: poetry-check
+  name: poetry-check
+  language: script
+  entry: "./test.sh"
