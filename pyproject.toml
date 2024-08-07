@@ -1,10 +1,13 @@
 [tool.poetry]
 name = "poetry-check-monorepo"
-package-mode = false
+version = "1.8.3"
+description = ""
+authors = []
+packages = [{include = "pcm"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
-poetry = "1.8.2"
+poetry = "1.8.3"
 
 [build-system]
 requires = ["poetry-core"]

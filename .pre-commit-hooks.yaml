@@ -1,7 +1,7 @@
 - id: poetry-check
   name: poetry-check
   language: python
-  entry: "python check.py"
+  entry: "python -m pcm.check"
   pass_filenames: true
   require_serial: true
   files: ^(.*/)?(poetry\.lock|pyproject\.toml)$
