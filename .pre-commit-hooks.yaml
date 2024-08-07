@@ -1,4 +1,7 @@
 - id: poetry-check
   name: poetry-check
-  language: script
-  entry: "./test.sh"
+  language: python
+  entry: "python check.py"
+  pass_filenames: true
+  require_serial: true
+  files: ^(.*/)?(poetry\.lock|pyproject\.toml)$
