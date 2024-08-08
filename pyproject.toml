@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "poetry-check-monorepo"
-version = "1.8.3"
+version = "1.8.3.post1"
 description = ""
 authors = []
 packages = [{include = "pcm"}]
